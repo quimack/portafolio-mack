@@ -26,15 +26,15 @@ header ul li{
 }
 a{
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 200;
-    margin: 0 10px;
     color: #0d0d38;
-}
+}   
 a:hover{
     color: #5d5b9b;
 }
 button{
+    font-size: 20px;
+    font-weight: 200;
+    margin: 0 10px;
     background-color: #fff;
     outline: none;
     border: none;
@@ -82,11 +82,10 @@ button:active{
     justify-content: space-between;
 }
 .caja-inicio{
-    width: 100%;
-    padding: 100px 350px;
+    padding: 0 50px;
 } 
 .imginicio{
-    margin-top: -80px;
+    margin-top: 0;
 }
 .saludo{
     text-align: left;
@@ -111,7 +110,7 @@ button:active{
     margin-top: 30px;
 }
 .mt-40{
-    margin-top: 45px;
+    margin-top: 40px;
 }
 section{
     width: 100vw;
@@ -124,50 +123,53 @@ section{
     padding: 0 0 55px;
 }
 */
-/*
 .pSection{
     font-size: 18px;
     font-weight: 300;
     line-height: 22px;
-    padding: 10px 730px 0;
+    padding: 15px 500px 50px 500px; 
 }
-*/
+
 .section-titulo{
     font-size: 48px;
     font-weight: 900;
 }
 .backgroundcolorClaro{
-   /* background-color: #f4daf6; */
    background-color: #f5e6f7;
 }
 .backgroundcolorOscuro{
     background-color: #333769;
 }
 .card{
-    border: solid 1px #7f7d9f;
+    border: solid 1px #a8a7b4;
     border-radius: 8px;
     margin: 10px;
     background-color: #fff;
     padding: 55px 65px;
-}
-.pCards{
     font-size: 22px;
     font-weight: 800;
-    color: #33323D;
+    color: #333769;
+}
+.card:hover{
+    border: solid 1px #0d0d38;
+    border-radius: 8px;  
+    color: #0d0d38; 
 }
 .card2{
     width: 342px;
     border: solid 1px #7f7d9f;
     border-radius: 8px;
     margin: 10px;
-    padding: 20px 20px 35px;
-}
-.pCards2{
-    font-size: 18px;
-    font-weight: 600;
+    padding: 30px 20px 0px;
+    font-size: 16px;
+    font-weight: 300;
     color: #33323D;
 }
-
+.card2:hover{
+    border: solid 1px #0d0d38;
+    border-radius: 8px;  
+    color: #0d0d38; 
+}
 .cita{
     color: #f5e6f7;
     font-size: 25px;
