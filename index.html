@@ -8,6 +8,7 @@
     </title>
     <link rel="shortcut icon" href="./Star_24682.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
     <!-- BARRA DE NAVEGACIÓN -->
@@ -16,17 +17,17 @@
             <ul class="flexrow flexend">
                 <li>
                     <button>
-                        <a href="#inicio">HOLA</a>
+                        <a class="aNav1" href="#inicio">HOLA</a>
                     </button>
                 </li>
                <li>
                    <button>
-                        <a href="#conocimientos">CONOCIMIENTOS</a>
+                        <a class="aNav1" href="#conocimientos">CONOCIMIENTOS</a>
                     </button>   
                 </li>
                <li>
                    <button>
-                        <a href="#proyectos">PROYECTOS</a>
+                        <a class="aNav1" href="#proyectos">PROYECTOS</a>
                     </button>
                 </li>
                 <li>
@@ -40,8 +41,9 @@
 
     <main>
         <!-- PRESENTACIÓN -->
+        <a name="inicio"></a>
         <section>
-            <a name="inicio"></a>
+          
             <div class="flexrow alignitems-center caja-inicio">
                 <div class="flexcolumn saludo">
                     <h4 class="fuente-saludo">¡Hola! soy</h4>
@@ -61,12 +63,13 @@
         </section>
 
         <!-- CONOCIMIENTOS -->
+        <a name="conocimientos"></a>
         <section class="backgroundcolorClaro">
-            <a name="conocimientos"></a>
+
             <div class="flexcolumn alignitems-center">
                 <div class="introSection">
                     <h2 class="section-titulo">Mis conocimientos</h2>
-                    <p class="pSection">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque neque molestias consequuntur vel ab quas architecto</p>
+                    <p class="pSection">Estos son los lenguajes que pronto sabré manejar:</p>
                 </div>
                 <div class="flexrow">
                     <div class="flexcolumn">
@@ -135,45 +138,70 @@
         </section>
 
         <!-- PROYECTOS -->
+        <a name="proyectos"></a>
         <section>
-            <a name="proyectos"></a>
+           
             <div class="flexcolumn alignitems-center">
                 <div class="introSection">
                     <h2 class="section-titulo">Mis Proyectos</h2>
-                    <p class="pSection">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quo nobis voluptatum tenetur! Id, nesciunt?</p>
+                    <p class="pSection">En esta sección iré linkeando los proyectos que desarrollé y seguiré desarrollando. Te invito a hecharles un vistazo!</p>
                 </div>
                 <div class="flexrow">
                     <div class="flexcolumn">
                         <div class="card2">
                                 <div>
-                                    <a href="http://127.0.0.1:5500/index.html">
+                                    <a class="vinculoscard2" href="http://127.0.0.1:5500/index.html">
                                         <img src="proyecto-portafolio.png" alt="proyecto portafolio"
                                         width="100%" height="100%">
-                                        <h4 class="mt-30">Portfolio</h4>
+                                        <p class="mt-30">Portfolio</p>
                                     </a>
                                 </div>
                         </div>
-                        <div class="card2">
-                            Controlador de gastos
+                        <div class="card3">
+                            <a class="vinculoscard2" href="">
+                                <img src="undraw_investment_data_yfvt.png" alt="controlador de gastos"
+                                width="85%" height="85%">
+                                <p class="mt-30 mb-10">Controlador de gastos</p>
+                            </a>
                         </div>
-                        <div class="card2">
-                            Buscador de peliculas
+                        <div class="card3">
+                            <a href="" class="vinculoscard2">
+                                <img src="undraw_horror_movie_3988.png" alt="imagen peliculas"
+                                width="78%" height="78%">
+                                <p class="mt-30">Buscador de peliculas</p>
+                            </a>
                         </div>
                     </div>
                     <div class="flexcolumn">
-                        <div class="card2">
-                            Generador de memes
+                        <div class="card3">
+                            <a href="" class="vinculoscard2">
+                                <img src="undraw_join_of2w.png" alt="generador de memes"
+                                width="80%" height="80%">
+                                <p class="mt-30">Generador de memes</p>
+                            </a>
                         </div>
-                        <div class="card2">
-                            Administrador de reuniones
+                        <div class="card3">
+                            <a href="" class="vinculoscard2">
+                                <img src="undraw_mobile_login_ikmv.png" alt="imagen Administrador de reuniones"
+                                width="78%" height="78%">
+                                <p class="mt-30">Administrador de reuniones</p>
+                            </a>
                         </div>
                     </div>
                     <div class="flexcolumn">
-                        <div class="card2">
-                            Match 3
+                        <div class="card3">
+                            <a href="" class="vinculoscard2">
+                                <img src="undraw_video_game_night_8h8m.png" alt="Match 3"
+                                width="81%" height="81%">
+                                <p class="mt-30 mb-10">Match 3</p>
+                            </a>
                         </div>
                         <div class="card2">
-                            Todo app
+                            <a href="" class="vinculoscard2">
+                                <img class="imgTodoapp" src="undraw_home_screen_4n7s.png" alt="imagen todo app"
+                                width="60%" height="60%">
+                                <p class="mt-40 pTodoapp">Todo app</p>
+                            </a>
                         </div>
                     </div>
                     </div>
@@ -182,38 +210,35 @@
         </section>
 
         <!-- CONTACTO -->
+        <a name="contacto"></a>
         <section class="backgroundcolorClaro">
-            <a name="contacto"></a>
+   
             <div class="sectionContacto">
-                <div class="contactame flexcolumn">
+                <div class="flexcolumn">
                     <h2 class="section-titulo">Contactame</h1>
-                    <p class="mt-40">Si está interesade en contactarse con migo, puede hacerlo a través de cualquiera de los siguientes medios: </p>
+                    <p class="mt-40 pContacto">Si está interesade en contactarse con migo, puede hacerlo a través de cualquiera de los siguientes medios: </p>
                     <div class="flexcolumn">
                         <div class="mt-40">
                             <a href="https://github.com/quimack" target="blank">
-                                <img class="iconosContacto" src="github-character_icon-icons.com_73547.ico" alt="github icon"
-                                width="20px"; height="20px";>
+                                <i class="fab fa-github-alt"></i>
                                 <span class="fuenteRedes">@quimack</span>
                             </a>
                         </div>
                         <div class="mt-30">
                             <a href="https://www.instagram.com/quimack/" target="blank">
-                                <img class="iconosContacto" src="3721672-instagram_108066.ico" alt="instagram icon"
-                                width="20px"; height="20px";>
+                                <i class="fab fa-instagram"></i>
                                 <span class="fuenteRedes">@quimack</span>
                             </a>
                         </div>
                         <div class="mt-30">
                             <a href="mailto:macakiven@gmail.com">
-                                <img class="iconosContacto" src="mail_email_message_electronic_online_web_icon-icons.com_59986.ico" alt="mail icon"
-                                width="20px"; height="20px";>
+                                <i class="fas fa-envelope"></i>
                                 <span class="fuenteRedes">macakiven@gmail.com</span>
                             </a>
                         </div>
                         <div class="mt-30">
                             <a href="https://www.linkedin.com/in/macarena-quiven-giacopazzi-992696203/" target="blank">
-                                <img class="iconosContacto" src="in_linked_linkedin_media_social_icon_124259 (1).ico" alt="linked in icon"
-                                width="20px"; height="20px";>
+                                <i class="fab fa-linkedin-in"></i>
                                 <span class="fuenteRedes">Macarena Quiven Giacopazzi</span>
                             </a>
                         </div>
@@ -255,8 +280,43 @@
         </section>
     </main>
 
-    <footer>
-
+    <!-- FOOTER -->
+    <footer class="backgroundcolorOscuro">
+        <div class="flexcolumn jcontent-center">
+            <nav>
+                <ul class="barraNav2 flexrow jcontent-center">
+                    <li>
+                        <a class="aNav2" href="#inicio">HOLA</a>
+                    </li>
+                    <li>
+                        <a class="aNav2" href="#conocimientos">CONOCIMIENTOS</a>
+                    </li>
+                    <li>
+                        <a class="aNav2" href="#proyectos">PROYECTOS</a>
+                    </li>
+                    <li>
+                        <a class="aNav2" href="#contacto">CONTACTO</a> 
+                    </li>
+                </ul>
+            </nav>
+            <div class="flexrow jcontent-center contentIcons-footer">
+                <a href="https://github.com/quimack" target="blank">
+                    <i class="fab fa-github-alt"></i>
+                </a>
+                <a href="https://www.instagram.com/quimack/" target="blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="mailto:macakiven@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/macarena-quiven-giacopazzi-992696203/" target="blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>   
+            </div>
+            <div class="flexrow jcontent-center">
+                <p class="pFooter">Hecho con ❤️ por Maca</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

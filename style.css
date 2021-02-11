@@ -11,11 +11,15 @@ body{
     width: 100vw;
     max-width: 1100px;
 }
-header ul li{
-    list-style: none;
+/*
+.liNav1{
     padding: 0 10px 0 10px;
     font-size: 20px;
     font-weight: 300;
+}
+*/
+ul li{
+    list-style: none;
 }
 .barraNav1{
     position: fixed;
@@ -26,9 +30,11 @@ header ul li{
 }
 a{
     text-decoration: none;
-    color: #0d0d38;
 }   
-a:hover{
+.aNav1{
+    color: #0d0d38;
+}
+.aNav1:hover{
     color: #5d5b9b;
 }
 button{
@@ -118,16 +124,16 @@ section{
     text-align: center;
     color: #0d0d38;
 }
-/*
+
 .introSection{
     padding: 0 0 55px;
 }
-*/
+
 .pSection{
     font-size: 18px;
     font-weight: 300;
     line-height: 22px;
-    padding: 15px 500px 50px 500px; 
+    padding: 20px 450px 0 450px;
 }
 
 .section-titulo{
@@ -155,14 +161,17 @@ section{
     border-radius: 8px;  
     color: #0d0d38; 
 }
+.vinculoscard2{
+    color: #0d0d38;
+}
 .card2{
     width: 342px;
     border: solid 1px #7f7d9f;
     border-radius: 8px;
     margin: 10px;
-    padding: 30px 20px 0px;
-    font-size: 16px;
-    font-weight: 300;
+    padding: 35px 20px 35px;
+    font-size: 18px;
+    font-weight: 500;
     color: #33323D;
 }
 .card2:hover{
@@ -170,6 +179,27 @@ section{
     border-radius: 8px;  
     color: #0d0d38; 
 }
+.card3{
+    width: 342px;
+    border:solid 1px #7f7d9f;
+    border-radius: 8px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0d0d38;
+    padding: 41px 20px 60px;
+}
+.card3:hover{
+    border: solid 1px #0d0d38;
+    color: #0d0d38;
+}
+.imgTodoapp{
+    margin-bottom: 15px;
+}
+.pTodoapp{
+    margin-bottom: -8px;
+}
+
 .cita{
     color: #f5e6f7;
     font-size: 25px;
@@ -183,8 +213,11 @@ section{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 50px 30px;
+    padding: 90px 60px;
+    margin: 90px 90px;
     background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #C0C0C0;
     font-size: 18px;
     font-weight: 300;
     line-height: 22px;
@@ -192,9 +225,14 @@ section{
 }
 .fuenteRedes{
     font-size: 18px;
+    color: #5d5b9b;
 }
-.contactame{
-    padding: 0 200px;
+.fuenteRedes:hover{
+   color: #0d0d38;
+}
+.pContacto{
+    text-align: left;
+    padding: 0 100px 0 0;
 }
 .iconosContacto{
     margin-right: 10px;
@@ -294,7 +332,70 @@ textarea:focus{
 .botonsubmit:active{
     box-shadow: 0 0 10px 2px #7f7d9f;
 }
+footer{
+    width: 100vw;
+}
+.barraNav2{
+    padding-top: 80px;
+    font-size: 18px;
+    font-weight: 200;
+}
+.aNav2{
+    color: #fff;
+    padding: 0 10px 0 10px;
+}
+.aNav2:active{
+    box-shadow: 0 0 10px 2px #fff;
+}
+.contentIcons-footer{
+    padding: 40px;
+}
+.iconosContacto-footer{
+    margin-right: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.fa-github-alt:before{
+    content: "\f113";
+}
+.fa-instagram:before{
+    content: "\f16d";
+}
+.fa-envelope{
+    content: "\f0e0";
+}
+.fa-linkedin-in{
+    content: "\f0e1";
+}
+.fas, .fab{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #333769;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #fff;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.fas:hover, .fab:hover{
+    color: #fff;
+    background-color: #333769;
+}
+.pFooter{
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 200;
+}
 @media screen and (max-width: 576px){
 
 }
+
+
 
