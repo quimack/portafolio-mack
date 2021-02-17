@@ -67,6 +67,10 @@ button:active{
 .flex{
     display: flex;
 }
+.flexrowMq{
+    display: flex;
+    flex-direction: row;
+}
 .flexrow{
     display: flex;
     flex-direction: row;
@@ -75,6 +79,10 @@ button:active{
     justify-content: flex-end;
 }
 .flexcolumn{
+    display: flex;
+    flex-direction: column;
+}
+.flexcolumnMq{
     display: flex;
     flex-direction: column;
 }
@@ -155,6 +163,10 @@ section{
     font-size: 22px;
     font-weight: 800;
     color: #333769;
+}
+.img-cardConocimientos{
+    width: 55%; 
+    height: 55%;
 }
 .card:hover{
     border: solid 1px #0d0d38;
@@ -253,6 +265,12 @@ input[type=text]{
     margin-right: 10px;
     outline: none;
 }
+input[type=text]:focus:valid{
+    box-shadow: 0 0 4px 1px #009913;
+}
+input[type=text]:valid{    
+    border: 1px solid #009913;
+}
 input[type=text]:focus{
     background-color: #F6F7FB;
     color:  #C0C0C0;
@@ -262,9 +280,22 @@ input[type=text]:focus{
     height: 2.5em;
     margin-bottom: 10px;
     margin-right: 10px;
-    box-shadow: 0 0 10px 2px #7f7d9f;
+    box-shadow: 0 0 10px 2px #5d5b9b;
 }
-
+input[type=text]:focus:invalid {
+    background-color: #F6F7FB;
+    color:  #C0C0C0;
+    border-radius: 15px;
+    font-size: 16px;
+    width: 14em;
+    height: 2.5em;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    box-shadow: 0 0 4px 1px #F61505;
+}
+input[type=text]:invalid:required{    
+    border: 1px solid #F61505;
+}
 input[type=email]{
     background-color: #F6F7FB;
     color:  #C0C0C0;
@@ -394,6 +425,63 @@ footer{
     font-weight: 200;
 }
 @media screen and (max-width: 576px){
+    nav{
+        display: none;
+    }
+    .caja-inicio{
+        padding: 150px 0 80px;
+    }
+    .saludo{
+        text-align: center;
+        padding: 0;
+    }
+    section{
+        padding: 0;
+    }
+    .flexrowMq{
+        display: flex;
+        flex-direction: column;
+    }
+    .introSection{
+        padding: 80px 0 45px;
+    }
+    .pSection{
+        padding: 15px 100px 0;
+    }
+    .flex-wrapMq{
+        flex-wrap: wrap;
+    }
+    .flexcolumnMq{
+        display: flex;
+        flex-direction: row;
+    }
+    .cards1Mq{
+        padding: 15px 10px 40px 30px;
+    }
+    .img-cardConocimientos{
+        width: 40%;
+        height: 40%;
+    }
+    .card{
+        padding: 45px 55px;
+        font-size: 18px;
+        margin: 0 10px 10px;
+    }
+    .cita{
+        padding: 60px 0;
+    }
+    .sectionContacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        border: none;
+
+    }
+    footer{
+        padding-top: 50px;
+    }
 
 }
 

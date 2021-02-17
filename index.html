@@ -37,6 +37,7 @@
                 </li>
             </ul>
         </nav>
+        <!-- FIN BARRA DE NAVEGACIÓN-->
     </header>
 
     <main>
@@ -44,7 +45,7 @@
         <a name="inicio"></a>
         <section>
           
-            <div class="flexrow alignitems-center caja-inicio">
+            <div class="flexrowMq alignitems-center caja-inicio">
                 <div class="flexcolumn saludo">
                     <h4 class="fuente-saludo">¡Hola! soy</h4>
                     <h1 class="nombre mb-10">Macarena Quiven</h1>
@@ -60,6 +61,7 @@
                    width="100%" height="100%">
                 </div>
             </div>
+            <!-- FIN PRESENTACIÓN -->
         </section>
 
         <!-- CONOCIMIENTOS -->
@@ -69,22 +71,21 @@
             <div class="flexcolumn alignitems-center">
                 <div class="introSection">
                     <h2 class="section-titulo">Mis conocimientos</h2>
-                    <p class="pSection">Estos son los lenguajes que pronto sabré manejar:</p>
+                    <p class="pSection">Estos son los lenguajes que estoy aprendiendo a manejar:</p>
                 </div>
-                <div class="flexrow">
+                <div class="flexrow flex-wrapMq alignitems-center cards1Mq">
                     <div class="flexcolumn">
                         <div class="card flexrow jcontent-center alignitems-center">
                             <div>
-                                <img src="html_plain_logo_icon_146475.ico" alt="icono html5"
-                                width="55%" height="55%">
+                                <img class="img-cardConocimientos" src="html_plain_logo_icon_146475.ico" alt="icono html5"
+                                >
                                 <p>HTML 5</p>
                             </div>
                         </div>
                            
                         <div class="card flexrow jcontent-center alignitems-center">
                             <div>
-                                <img src="javascript_plain_logo_icon_146454.ico" alt="icono javascript"
-                                width="55%" height="55%">
+                                <img class="img-cardConocimientos" src="javascript_plain_logo_icon_146454.ico" alt="icono javascript">
                                 <p>JavaScript</p>
                             </div>
                         </div>
@@ -92,33 +93,29 @@
                     <div class="flexcolumn">
                         <div class="card flexrow jcontent-center alignitems-center">
                             <div>
-                                <img src="file_type_css_icon_130661.ico" alt="icono css3"
-                                width="55%" height="55%">
+                                <img class="img-cardConocimientos" src="file_type_css_icon_130661.ico" alt="icono css3">
                                 <p>CSS 3</p>
                             </div>
                         </div>
                            
                         <div class="card flexrow jcontent-center alignitems-center">
                             <div>
-                                <img src="react_original_logo_icon_146374.ico" alt="icono react"
-                                width="55%" height="55%">
+                                <img class="img-cardConocimientos" src="react_original_logo_icon_146374.ico" alt="icono react">
                                 <p>React</p>
                             </div>
                         </div>
                     </div>
-                    <div class="flexcolumn">
+                    <div class="flexcolumnMq">
                         <div class="card flexrow jcontent-center alignitems-center">
                             <div>
-                                <img src="sass_original_logo_icon_146350.ico" alt="icono sass"
-                                width="55%" height="55%">
+                                <img class="img-cardConocimientos" src="sass_original_logo_icon_146350.ico" alt="icono sass">
                                 <p>Sass</p>
                             </div>
                         </div>
                            
                         <div class="card flexrow jcontent-center alignitems-center">
                             <div>
-                                <img src="file_type_git_icon_130581.ico" alt="icono git"
-                                width="55%" height="55%">
+                                <img class="img-cardConocimientos" src="file_type_git_icon_130581.ico" alt="icono git">
                                 <p>GIT</p>
                             </div>
                         </div>
@@ -128,11 +125,11 @@
         </section>
 
         <!-- CITA -->
-        <section class="backgroundcolorOscuro">
+        <section class="backgroundcolorOscuro cita">
             <cite>
                 <img src="quote_icon_154946.ico" alt="comillas cita">
-                <p class="cita mt-30">Una persona que nunca cometió un error, nunca intentó nada nuevo.</p>
-                <p class="autorCita cita mt-30">Albert Einstein</p>
+                <p class="mt-30">Una persona que nunca cometió un error, nunca intentó nada nuevo.</p>
+                <p class="autorCita mt-30">Albert Einstein</p>
           
             </cite>
         </section>
@@ -144,10 +141,10 @@
             <div class="flexcolumn alignitems-center">
                 <div class="introSection">
                     <h2 class="section-titulo">Mis Proyectos</h2>
-                    <p class="pSection">En esta sección iré linkeando los proyectos que desarrollé y seguiré desarrollando. Te invito a hecharles un vistazo!</p>
+                    <p class="pSection">En esta sección encontrarás el link de los proyectos que desarrollé e iré desarrollando. Te invito a darles una mirada!</p>
                 </div>
-                <div class="flexrow">
-                    <div class="flexcolumn">
+                <div class="flexrow flex-wrapMq">
+                    <div class="flexcolumnMq flex-wrapMq">
                         <div class="card2">
                                 <div>
                                     <a class="vinculoscard2" href="http://127.0.0.1:5500/index.html">
@@ -252,9 +249,8 @@
                     <div class="flexrow">
                         <div class="flexcolumn">
                                         <label  label for="idnombre">Nombre *</label>
-                                        <input type="text" name="nombre" placeholder="p. ej.: Macarena" id="idnombre" required>
+                                        <input type="text" name="nombre" placeholder="p. ej.: Macarena" id="idnombre" required>                                        
                         </div>
-        
                         <div class="flexcolumn">
                                         <label label  for="idapellido">Apellido *</label>
                                         <input type="text"  name="apellido" placeholder="p. ej.: Quiven" id="idapellido" required>
@@ -267,7 +263,7 @@
                     </div>
                     <div class="flexcolumn">
                         <label for="Comentarios">Mensaje *</label>
-                        <textarea cols="90" rows="5" id="Comentarios" name="Comentarios" placeholder="Escriba un mensaje aquí"></textarea>
+                        <textarea cols="90" rows="5" id="Comentarios" name="Comentarios" placeholder="Escriba un mensaje aquí" required></textarea>
                     </div>
                     <div>
                         <input class="botonsubmit" type="submit" value="Enviar">
