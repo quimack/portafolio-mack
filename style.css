@@ -11,13 +11,6 @@ body{
     width: 100vw;
     max-width: 1100px;
 }
-/*
-.liNav1{
-    padding: 0 10px 0 10px;
-    font-size: 20px;
-    font-weight: 300;
-}
-*/
 ul li{
     list-style: none;
 }
@@ -132,18 +125,15 @@ section{
     text-align: center;
     color: #0d0d38;
 }
-
 .introSection{
     padding: 0 0 55px;
 }
-
 .pSection{
     font-size: 18px;
     font-weight: 300;
     line-height: 22px;
     padding: 20px 450px 0 450px;
 }
-
 .section-titulo{
     font-size: 48px;
     font-weight: 900;
@@ -173,6 +163,10 @@ section{
     border-radius: 8px;  
     color: #0d0d38; 
 }
+.section-tituloContacto{
+    font-size: 48px;
+    font-weight: 900;
+}
 .vinculoscard2{
     color: #0d0d38;
 }
@@ -181,7 +175,7 @@ section{
     border: solid 1px #7f7d9f;
     border-radius: 8px;
     margin: 10px;
-    padding: 35px 20px 35px;
+    padding: 10px 20px 25px;
     font-size: 18px;
     font-weight: 500;
     color: #33323D;
@@ -191,27 +185,9 @@ section{
     border-radius: 8px;  
     color: #0d0d38; 
 }
-.card3{
-    width: 342px;
-    border:solid 1px #7f7d9f;
-    border-radius: 8px;
-    margin: 10px;
-    font-size: 18px;
-    font-weight: 500;
-    color: #0d0d38;
-    padding: 41px 20px 60px;
+.pCards{
+    margin: 5px 0 0; 
 }
-.card3:hover{
-    border: solid 1px #0d0d38;
-    color: #0d0d38;
-}
-.imgTodoapp{
-    margin-bottom: 15px;
-}
-.pTodoapp{
-    margin-bottom: -8px;
-}
-
 .cita{
     color: #f5e6f7;
     font-size: 25px;
@@ -220,6 +196,10 @@ section{
 .autorCita{
     font-size: 30px;
     font-weight: 900;
+}
+.img-cardProyectos{
+    width: 85%;
+    height: 85%;
 }
 .sectionContacto{
     display: flex;
@@ -246,8 +226,11 @@ section{
     text-align: left;
     padding: 0 100px 0 0;
 }
+.linksContacto{
+    margin: 30px 0 0; 
+}
 .iconosContacto{
-    margin-right: 10px;
+    margin-top: 10px;
 }
 label{
     font-weight: 500;
@@ -387,6 +370,9 @@ footer{
     border-radius: 50%;
     background-color: #fff;
 }
+.marginIcons-footer{
+    margin-right: 18px;
+}
 .fa-github-alt:before{
     content: "\f113";
 }
@@ -411,7 +397,7 @@ footer{
     border-radius: 50px;
     padding: 10px;
     background-color: #fff;
-    margin-right: 20px;
+    margin-right: 5px;
     font-size: 20px;
 }
 .fas:hover, .fab:hover{
@@ -424,6 +410,9 @@ footer{
     font-size: 18px;
     font-weight: 200;
 }
+
+/* MEDIA QUERIES */
+
 @media screen and (max-width: 576px){
     nav{
         display: none;
@@ -468,19 +457,35 @@ footer{
         margin: 0 10px 10px;
     }
     .cita{
-        padding: 60px 0;
+        padding: 60px;
+    }
+    .card2{
+        width: 244px;
+        padding: 25px 20px 20px;
+    }
+    .img-cardProyectos{
+        width: 75%;
+        height: 75%;
     }
     .sectionContacto{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0;
+        padding: 0 0 0 40px;
         margin: 0;
         border: none;
-
+    }
+    .section-tituloContacto{
+        padding-top: 100px;
+    }
+    .iconosContacto{
+        margin-top: 10px;
+        margin-right: 80px;
+        margin-left: 5px;
     }
     footer{
         padding-top: 50px;
+        margin-top: 180px;
     }
 
 }
